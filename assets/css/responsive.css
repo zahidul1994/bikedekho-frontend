@@ -1,0 +1,114 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) { 
+    .navbar-brand img{
+        width: 100%;
+    }
+    #topbar-src{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .topbar-seaarch{
+        width: 100% !important;
+    }
+    #topbar-navigation{
+        width: 100%;
+    }
+    .topbar-end{
+        padding-left: 0;
+    }
+    .topbar-end li{
+        width: 50%;
+    }
+    .banner-srcbox{
+        width: 100%;
+        margin-left: 0;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .news-descp{
+        height: auto;
+    }
+    .footer-menu{
+        margin-bottom: 20px;
+    }
+    .footer-content-main{
+        padding: 20px 0px;
+    }
+    /* homepage responsive end */
+
+    /* news page responsive */
+    .news-src-btn{
+        padding: 0 20px !important;
+    }
+
+    /* news page responsive */
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+    .navbar-brand img{
+        width: 100%;
+    }
+    #topbar-src{
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .topbar-seaarch{
+        width: 100% !important;
+    }
+    #topbar-navigation{
+        width: 100%;
+    }
+    .topbar-end{
+        padding-left: 0;
+    }
+    .topbar-end li{
+        width: 50%;
+    }
+    .banner-srcbox{
+        width: 100%;
+        margin-left: 0;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .news-descp{
+        height: auto;
+    }
+    .footer-menu{
+        margin-bottom: 20px;
+    }
+    .footer-content-main{
+        padding: 20px 0px;
+    }
+    /* homepage responsive end */
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .topbar-seaarch{
+        width: 200px;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+        font-size: 12px;
+    }
+    .product-card p{
+        font-size: 14px;
+    }
+    .vs{
+        top: 22px;
+    }
+    .news-descp{
+        height: 105px;
+    }
+    .s-app-link img{
+        width: 100%;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
