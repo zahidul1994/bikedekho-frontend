@@ -159,6 +159,18 @@ top: 52px;
     background-size: cover!important;
 padding: 50px 0;
 background-position: center center;
+position: relative;
+z-index: 0;
+}
+.anchor-overlay{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  opacity: 50%;
+  left: 0;
+  top: 0;
+  z-index: 0;
 }
 .banner-srcbox{
     background: #fff;
@@ -167,6 +179,8 @@ background-position: center center;
     padding: 19px 24px; 
     width: 345px;
     margin-left: 70px;
+    position: relative;
+    z-index: 9;
 }
 .bs-header{
     font-size: 30px;
@@ -251,7 +265,9 @@ font-weight: 700;
 /* banner css */
 </style>
 
+
   <section id="banner">
+    <a href="#" class="anchor-overlay"></a>
     <div class="container">
       <div class="row">
 
