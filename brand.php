@@ -2194,7 +2194,7 @@ include "header.php";
             </section>
 
             <section id="card-section">
-                <div class="container">
+           
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-box-main">
@@ -2389,7 +2389,7 @@ include "header.php";
 
                         </div>
                     </div>
-                </div>
+             
             </section>
 
             <section id="card-section">
@@ -2856,7 +2856,7 @@ include "header.php";
             </section>
 
             <section id="card-section">
-                <div class="container">
+             
                     <div class="row">
                         <div class="col-md-12">
                             <div class="section-box-main">
@@ -3108,7 +3108,7 @@ include "header.php";
 
                         </div>
                     </div>
-                </div>
+              
             </section>
 
 
